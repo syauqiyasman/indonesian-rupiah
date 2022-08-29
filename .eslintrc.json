@@ -32,6 +32,15 @@
           ".tsx"
         ]
       }
+    ],
+    "import/extensions": [
+      2,
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never",
+        "js": "never"
+      }
     ]
   },
   "settings": {
