@@ -1,0 +1,21 @@
+.currencyContainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  .currencyContainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .currencyContainer {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,1fr));
+    gap: 1rem;
+  }
+}
